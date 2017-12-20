@@ -1,0 +1,14 @@
+{
+  "name": "webxr-agent.examples.threejs",
+  "version": "1.0.0",
+  "description": "three.js example using the WebXR Agent.",
+  "main": "index.html",
+  "author": "WebXR Agent authors",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "three": "^0.84.0"
+  },
+  "scripts": {
+    "vreffect": "curl https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/js/effects/VREffect.js -o node_modules/three/examples/js/effects/VREffect.js"
+  }
+}

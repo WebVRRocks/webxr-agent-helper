@@ -1,0 +1,15 @@
+.DS_Store
+.node_repl_history
+.npm
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.log
+*.pid
+*.seed
+*.un~
+*~
+examples
+logs
+node_modules
+pids
+Session.vim

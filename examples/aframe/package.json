@@ -1,0 +1,18 @@
+{
+  "name": "webxr-agent.examples.aframe",
+  "version": "1.0.0",
+  "description": "A-Frame example using the WebXR Agent.",
+  "main": "index.html",
+  "author": "WebXR Agent authors",
+  "license": "CC0-1.0",
+  "repository": "webvrrocks/webxr-agent",
+  "devDependencies": {
+    "shelljs": "^0.7.8"
+  },
+  "vendorDependencies": {
+    "aframe": "^0.7.1"
+  },
+  "scripts": {
+    "postinstall": "node scripts/vendor.js"
+  }
+}
